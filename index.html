@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="meyers-reset.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg" id="home">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler border-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 column-gap-4">
+          <li class="nav-item"><a href="#profile" class="nav-link">profile</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section class="hero">
+        <h1>hello world!</h1>
+        <p>Welcome to my <span>portofolio pages</span></p>
+        <button class="btn-about"><a href="#about">about me</a></button>
+        <button class="btn-contact"><a href="#contact">get in touch</a></button>
+    </section>
+    <section class="profile" id="profile">
+        <img src="./assets/image/profile-picture.jpg" alt="my profile picture" class="profile-pic rounded-circle">
+        <h2>i'm januar khristy</h2>
+        <p>I&apos;m a Fullstack Web developer, Web Designer, and a Student</p>
+    </section>
+    <section class="education" id="education">
+      <h2>education</h2>
+      <div class="box-container rounded box-1">
+        <img class="box-icon" src="./assets/icon/high-school-icon.svg" alt="high school icon">
+        <h3><span>sman</span> 6 palopo</h3>
+        <p>Natural Science</p>
+        <time datetime="2021-2024">2021-2024</time>
+      </div>
+      <div class="line-dashed"></div>
+      <div class="box-container rounded box-2">
+        <img class="box-icon" src="assets/icon/college-university-icon.svg" alt="university icon">
+        <h3>politeknik negeri ujung pandang <span>(pnup)</span></h3>
+        <p>Bachelor of Applied Science in Computer Engineering and Networks</p>
+        <time datetime="2024-2027">2024-present</time>
+      </div>
+  </section>
+    <section class="skills" id="skills">
+      <h2>Skills</h2>
+      <div class="sklls-ico-container">
+        <div class="box-icon-html">
+          <img class="skills-ico" src="./assets/icon/html-logo.png" alt="html logo">
+        </div>
+        <div class="box-icon-css">
+          <img class="skills-ico" src="./assets/icon/css-logo.png" alt="css logo">
+        </div>
+        <div class="box-icon-btstrp">
+          <img class="skills-ico" src="./assets/icon/bootstrap-5-logo-icon.png" alt="bootstrap logo">
+        </div>
+      </div>
+      <h3 class="soft-skill-ttl">soft skills</h3>
+      <div class="sft-skll-container">
+        <div class="box-skll rounded box-2">
+          <h4>advanced tools</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu velit odio. Mauris sit amet tincidunt </p>
+        </div>
+        <div class="box-skll rounded box-2">
+          <h4>advanced tools</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu velit odio. Mauris sit amet tincidunt </p>
+        </div>
+        <div class="box-skll rounded box-2">
+          <h4>advanced tools</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu velit odio. Mauris sit amet tincidunt </p>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2>projects</h2>
+      <div class="prjcts-container">
+        <a href="projects/Delivery Services Web Project/index.html" target="_blank">
+          <div class="card">
+            <img src="./assets/image/delivery-web-prjcts.png" class="card-img" alt="delivery web project.png">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Delivery Web Project</h5>
+            </div>
+          </div>
+        </a>
+        <a href="./projects/TinDog Project/index.html" target="_blank">
+          <div class="card">
+            <img src="./assets/image/tindog-prjcts.png" class="card-img" alt="Tindog project.png">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Tindog Project</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="about" id="about">
+      <h2>about</h2>
+      <div class="picture-container">
+        <img src="./assets/image/profile-picture-2.png" alt="a picture of myself">
+      </div>
+      <div class="abt-txt-container">
+        <p>Hello! I'm Januar, a passionate Fullstack Web Developer with a keen eye for detail and a love for creating intuitive, dynamic, and user-friendly web applications. With 2 years of experience in the industry, I have honed my skills in both frontend and backend development, ensuring that every project I undertake is not only functional but also aesthetically pleasing.</p>
+        <p>My Motto is “Coding, Dreaming, Hardworking”</p>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2>contact</h2>
+      <form name="contact input" action="https://api.web3forms.com/submit" method="post" enctype="application/x-www-form-urlencoded" id="form-input">
+        <input type="hidden" name="access_key" value="0d8e3b9c-558b-44cd-af8e-b2a7dd512a26">
+        <div class="form-group-first-name">
+          <label for="first-name">firstname : </label>
+          <input type="text" name="first name" id="first-name" placeholder="Jhon" required>
+        </div>
+        <div class="form-group-last-name">
+          <label for="last-name">lastname : </label>
+          <input type="text" name="last name" id="last-name" placeholder="Doe" required>
+        </div>
+        <div class="form-group-email">
+          <label for="email">email : </label>
+          <input type="email" name="email" id="email" placeholder="name@gmail.com" required>
+        </div>
+        <div class="form-group-gender">
+        <label for="gender">gender : </label>
+        <select name="gender" id="gender" required>
+          <option value="Male" selected>Male</option>
+          <option value="Female">Female</option>
+          <option value="Anonym">prefer not to say</option>
+        </select>
+        </div>
+        <textarea name="message" id="message" placeholder="leave a message" rows="7"></textarea>
+        <span class="h-captcha" data-captcha="true" data-captcha="true"></span>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+  <footer class="container-fluid py-5 px-5 border-top">
+    <div class="row">
+      <div class="footer-txt col-12 col-lg-2 order-1 order-lg-0">
+        <p class="mb-0 pb-2 text-center text-lg-start">All right reserved.</p>
+        <p class="mb-0 text-center text-lg-start">© 2024</p>
+      </div>
+      <ul class="nav col-12 col-lg-8 justify-content-center">
+        <li class="nav-item"><a href="#home" class="nav-link">home</a></li>
+        <li class="nav-item"><a href="#profile" class="nav-link">profile</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">education</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">skills</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">projects</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">about</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">contact</a></li>
+      </ul>
+      <div class="social-media-ftr col-12 col-lg-2 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <a href="www.linkedin.com/in/januar-khristy-prio-utomo-4b3666190"><img src="./assets/icon/linkedin-app-icon.svg" alt="linkedin icon"></a>
+        <a href="https://www.instagram.com/januarkhristyy/"><img src="./assets/icon/ig-instagram-icon.svg" alt="instagram icon"></a>
+        <a href="https://x.com/JanuarKhristyy"><img src="./assets/icon/twitter-x.svg" alt="twitter/x icon"></a>
+      </div>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
+  <script>
+    const form = document.getElementById('form-input');
+    form.addEventListener('submit', function(e) {
+        const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
+        if (!hCaptcha) {
+            e.preventDefault();
+            alert("Please fill out captcha field")
+            return
+        }
+    });
+    </script>
+</body>
+</html>
